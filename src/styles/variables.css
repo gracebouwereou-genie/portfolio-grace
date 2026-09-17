@@ -1,0 +1,36 @@
+:root{
+
+    --primary:#2563EB;
+    --primary-dark:#1E40AF;
+
+    --white:#ffffff;
+
+    --dark:#1F2937;
+
+    --gray:#6B7280;
+
+    --light:#F3F4F6;
+
+    --radius:12px;
+
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+
+    --transition:.3s ease;
+
+    --container:1200px;
+
+}
+
+body.dark{
+
+    --white:#0f172a;
+
+    --dark:#f1f5f9;
+
+    --light:#1e293b;
+
+    --gray:#cbd5e1;
+
+    --primary:#3b82f6;
+
+}

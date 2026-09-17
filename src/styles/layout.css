@@ -1,0 +1,214 @@
+.header{
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+    transition:.3s;
+
+}
+
+.navbar{
+
+    height:80px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.header.active{
+
+    background:white;
+
+    box-shadow:var(--shadow);
+
+}
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.hero-content{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:3rem;
+
+    align-items:center;
+
+}
+
+.about{
+
+    padding:100px 0;
+
+    background:var(--light);
+
+}
+
+.about-content{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:3rem;
+
+    align-items:center;
+
+}
+
+.skills{
+
+    padding:100px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    font-size:2.2rem;
+
+    margin-bottom:50px;
+
+}
+
+.projects{
+
+    padding:100px 0;
+
+    background:var(--light);
+
+}
+
+.projects-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.timeline{
+
+    padding:100px 0;
+
+}
+
+.timeline-container{
+
+    position:relative;
+
+    max-width:800px;
+
+    margin:auto;
+
+}
+
+/* ligne centrale */
+
+.timeline-container::before{
+
+    content:"";
+
+    position: absolute;
+
+    width:2px;
+
+    background:orange;
+
+    top:0;
+
+    bottom:0;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
+
+.goals{
+
+    padding:100px 0;
+
+    background:var(--light);
+
+}
+
+.goals-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+.contact{
+
+    padding:100px 0;
+
+}
+
+.contact-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:40px;
+
+    align-items:start;
+
+}
+
+.footer{
+
+    background:var(--dark);
+
+    color:white;
+
+    padding:40px 0;
+
+    margin-top:100px;
+
+}
+
+.footer-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:20px;
+
+}
+
+section {
+  padding: 80px 0;
+}
